@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-const listOfPost = [
+const listOfPosts = [
   {
     titolo: "Ciambellone",
     contenuto: "Ciambellone golosone",
@@ -35,8 +35,17 @@ const listOfPost = [
   },
 ];
 
+app.use(express.static("public"));
+
 app.get("/", (req, res) => {
   res.send("Server del mio blog");
+});
+
+app.get("/bacheca", (req, res) => {
+  const result = [];
+  result.push(listOfPosts);
+  result.push(listOfPosts.length);
+  res.json(result);
 });
 
 app.listen(port, () => {
