@@ -6,31 +6,31 @@ const listOfPosts = [
   {
     titolo: "Ciambellone",
     contenuto: "Ciambellone golosone",
-    immagine: "./ciambellone.jpeg",
+    immagine: "./images/ciambellone.jpeg",
     tags: ["cibo", "buono", "seguimi"],
   },
   {
     titolo: "Cracker barbabietola",
     contenuto: "Cracker barbabietola fatti in casa!",
-    immagine: "./cracker_barbabietola.jpeg",
+    immagine: "./images/cracker_barbabietola.jpeg",
     tags: ["cibo", "buono", "seguimi"],
   },
   {
     titolo: "Pane Fritto Dolce",
     contenuto: "Pane Fritto Dolce buonissimo",
-    immagine: "./pane_fritto_dolce.jpeg",
+    immagine: "./images/pane_fritto_dolce.jpeg",
     tags: ["cibo", "buono", "seguimi"],
   },
   {
     titolo: "Pasta Barbabietola",
     contenuto: "Pasta super buona, non ne hai mai mangiata una così!",
-    immagine: "./pasta_barbabietola.jpeg",
+    immagine: "./images/pasta_barbabietola.jpeg",
     tags: ["cibo", "buono", "seguimi"],
   },
   {
     titolo: "Torta Paesana",
     contenuto: "Torta strepitosa, ricetta rubata alla nonna",
-    immagine: "./torta_paesana.jpeg",
+    immagine: "./images/torta_paesana.jpeg",
     tags: ["cibo", "buono", "seguimi"],
   },
 ];
